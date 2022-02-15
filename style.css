@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+ul li{
+    list-style: none;
+}
+header{
+    background: #ddd;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 100px;
+    margin-bottom: 25px;
+}
+header img {
+    width: 60px;
+    margin-left: 20px;
+}
+header ul {
+    width: 60%;
+    padding-left: 50px;
+}
+header ul li {
+    display: inline-block;
+    position: relative;
+    margin: 9px;
+}
+header ul li a{
+    display: inline-block;
+    padding:10px;
+    font-size: 17px;
+    color: #000;
+}
+.flex-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.leftber{
+    width: 85%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.flex-box{
+    width: 30%;
+    height: 200px;
+    border: 1px solid blue;
+    display: flex;
+    align-items: start;
+}
+.flex-item{
+    padding: 8px;
+    background: rgb(86, 201, 236);
+    border: 1px solid blue;
+}
+.fb-2{
+    display: flex;
+    justify-content: space-between;
+}
+.fb-3{
+    display: flex;
+    flex-wrap: wrap;
+}
+.fb-4{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.fb-5{
+    display: flex;
+    align-content: center;
+    flex-basis:20%;
+    padding: 14px;
+}
+.fb-6{
+    display: flex;
+    align-content: center;
+    flex-basis: 40%;
+    padding: 15px;
+}
+.fc-2{
+    background-color: aqua;
+    color: #fff;
+    padding: 20px;
+}
+.fc-3{
+    background-color: aqua;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-self: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.fb-11{
+    display: flex;
+    justify-content: center;
+}
+.fb-12{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+.fc-4{
+    background-color: aqua;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.fb-7{
+    display: flex;
+    width: 15%;
+}
+.fb-9{
+    display: flex;
+    width: 15%;
+}
+.fb-8{
+    display: flex;
+    flex-grow: 2;
+}
+.sidebar{
+    width: 25%;
+    border-left: 2px solid rgb(89, 71, 255);
+    background-color: #ddd;
+    padding: 25px;
+    margin: 75px 0 25px;
+}
